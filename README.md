@@ -1,6 +1,6 @@
 # Сокращатель ссылок
 
-Для запуска - `docker compose -f docker-compose.dev.yml up`. После первого запуска необходимо применить миграции - `docker exec app npm run prisma:migrate`.
+Для запуска - `docker compose -f docker-compose.dev.yml up`. После первого запуска необходимо применить миграции - `docker exec -it app npm run prisma:migrate`.
 
 ## Роуты
 
